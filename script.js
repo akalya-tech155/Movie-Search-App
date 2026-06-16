@@ -21,3 +21,14 @@ searchBtn.addEventListener("click", async () => {
         <p>${data.Plot}</p>
     `;
 });
+
+
+/*
+Changes:
+
+Add "Add to Favorites" button
+Save favorites in localStorage
+
+*/
+
+localStorage.setItem("favorites", JSON.stringify(favorites));
