@@ -21,3 +21,20 @@ searchBtn.addEventListener("click", async () => {
         <p>${data.Plot}</p>
     `;
 });
+
+/*
+Changes:
+
+Call the OMDB API
+Display movie title
+Display poster
+Display year and plot
+
+*/
+
+movieDetails.innerHTML = `
+<h2>${data.Title}</h2>
+<img src="${data.Poster}">
+<p>${data.Year}</p>
+<p>${data.Plot}</p>
+`;
