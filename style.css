@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#movieDetails {
+    margin-top: 20px;
+}
+
+#movieDetails img {
+    width: 250px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#movieDetails p {
+    max-width: 600px;
+    margin: 10px auto;
+}
