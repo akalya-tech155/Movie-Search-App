@@ -21,3 +21,16 @@ searchBtn.addEventListener("click", async () => {
         <p>${data.Plot}</p>
     `;
 });
+
+
+
+//Changes:
+/*
+Add search input
+Add search button
+Add code to get the movie name from the input
+*/
+
+searchBtn.addEventListener("click", () => {
+    const movieName = document.getElementById("movieName").value;
+});
