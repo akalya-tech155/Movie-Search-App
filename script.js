@@ -25,6 +25,7 @@ searchBtn.addEventListener("click", async () => {
 
 
 
+
 //Changes:
 /*
 Add search input
@@ -62,3 +63,14 @@ Show loading text/spinner while waiting for API response
 
 movieDetails.innerHTML = "Loading...";
 
+
+/*
+Changes:
+
+Add "Add to Favorites" button
+Save favorites in localStorage
+
+*/
+
+localStorage.setItem("favorites", JSON.stringify(favorites));
+ 
