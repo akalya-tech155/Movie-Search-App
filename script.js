@@ -26,6 +26,7 @@ searchBtn.addEventListener("click", async () => {
 
 
 
+
 //Changes:
 /*
 Add search input
@@ -74,3 +75,15 @@ Save favorites in localStorage
 
 localStorage.setItem("favorites", JSON.stringify(favorites));
  
+
+/*
+Changes:
+
+Show error message if movie is not found
+Handle network errors
+*/
+
+if (data.Response === "False") {
+    movieDetails.innerHTML = "Movie not found";
+}
+
