@@ -53,3 +53,12 @@ movieDetails.innerHTML = `
 <p>${data.Plot}</p>
 `;
 
+
+/*
+Changes:
+
+Show loading text/spinner while waiting for API response
+*/
+
+movieDetails.innerHTML = "Loading...";
+
